@@ -90,7 +90,7 @@ main {
 }
 
 .arrow-img {
-  transition: all 1s;
+  transition: all 0.2s;
 }
 .transformedArrow {
   transform: rotateX(180deg);
