@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS STYLSHEET -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- IMAGE SECTION -->
+
+  <img class="box-img" src="images/illustration-box-desktop.svg" alt="an orange box">
+  <main class="container">
+
+
+    <section id="section--1">
+  
+      <picture>
+        <source media="(min-width: 700px)" srcset="images/illustration-woman-online-desktop.svg">
+
+        <img class="woman-img" src="images/illustration-woman-online-mobile.svg" alt="a woman standong and facing a large computer" />
+      </picture>
+
+    </section>
+
+
+    <!-- FAQ SECTION -->
+
+    <section id="section--2">
+      <section>
+        <h1 class="faq-header">FAQ</h1>
+      </section>
+
+      <section>
+        <section>
+          <section class="section--2-content">
+            <h3 class="section--2-content--heading">How many team members can I invite?</h3>
+            <div>
+              <img class="arrow-img" id="1" src="images/icon-arrow-down.svg" alt="an arrow point downwards" />
+            </div>
+          </section>
+          <section>
+            <p class="hidden  dropdown--text dropdown--text-1" id="dropdown--text-1">
+              You can invite up to 2 additional users on the Free plan. There
+              is no limit on team members for the Premium plan.
+            </p>
+          </section>
+        </section>
+        <hr />
+
+        <section>
+          <section class="section--2-content">
+            <h3 class="section--2-content--heading bolder">What is the maximum file upload size?</h3>
+            <span>
+              <img class="arrow-img transformedArrow" id="2" src="images/icon-arrow-down.svg"
+                alt="an arrow point downwards" />
+            </span>
+          </section>
+          <section>
+            <p class="block dropdown--text dropdown--text-2" id="dropdown--text-2">
+              No more than 2GB. All files in your account must fit your
+              allotted storage space.
+            </p>
+          </section>
+        </section>
+        <hr />
+
+        <section>
+          <section class="section--2-content">
+            <h3 class="section--2-content--heading">How do I reset my password?</h3>
+            <span>
+              <img class="arrow-img" id="3" src="images/icon-arrow-down.svg" alt="an arrow point downwards" />
+            </span>
+          </section>
+          <section>
+            <p class="hidden dropdown--text dropdown--text-3" id="dropdown--text-3">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </section>
+        </section>
+        <hr />
+        <section>
+          <section class="section--2-content">
+            <h3 class="section--2-content--heading">Can I cancel my subscription?</h3>
+            <span>
+              <img class="arrow-img" id="4" src="images/icon-arrow-down.svg" alt="an arrow point downwards" />
+            </span>
+          </section>
+          <section>
+            <p class="hidden dropdown--text dropdown--text-4" id="dropdown--text-4">
+              Yes! Send us a message and we’ll process your request no
+              questions asked.
+            </p>
+          </section>
+        </section>
+        <hr />
+        <section>
+          <section class="section--2-content">
+            <h3 class="section--2-content--heading">Do you provide additional support?</h3>
+            <span>
+              <img class="arrow-img" id="5" src="images/icon-arrow-down.svg" alt="an arrow point downwards" />
+            </span>
+          </section>
+          <p class="hidden dropdown--text dropdown--text-5" id="dropdown--text-5">
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
+          </p>
+        </section>
+      </section>
+      <hr />
+      <article class="extra"></article>
+    </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
